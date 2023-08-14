@@ -1,13 +1,11 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $verification_code = $_POST["verification_code"];
+    $name = $_POST["name"];
+    $mobile = $_POST["mobile"];
+    $email = $_POST["email"];
     
-    // Compare the entered verification code with the sent code (not shown here)
+    // Process user details (not shown here)
     
-    if (/* Verification is successful */) {
-        echo "Email successfully verified!";
-    } else {
-        echo "Verification failed. Please try again.";
-    }
+    echo "Sign up successful!";
 }
 ?>
