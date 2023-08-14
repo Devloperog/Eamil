@@ -6,6 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     // Process user details (not shown here)
     
-    echo "Sign up successful!";
+    header("Location: gadar.html"); // Redirect to gadar.html after processing
 }
 ?>
+
